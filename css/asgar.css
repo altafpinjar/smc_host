@@ -1,0 +1,167 @@
+ 
+
+/* faq  */
+ #ad-imgheader
+  {
+    position: relative;
+    background-size: cover;
+    background-position: 20%;
+    padding: 60px 5px;
+    height: 42vh;
+    max-height: 270px;
+    
+    color: #ffff;
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/39866/entrepreneur-startup-start-up-man-39866.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+#ad-fontmargin
+{
+ margin-left: 39px; 
+}
+#ad-ptext
+{
+  text-align: justify;
+}
+#ad-tpadding
+{
+  padding-top: 3%;
+}
+
+
+
+/* blog page css*/
+#ad-header-promo {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+        line-height: 1.2;
+      border: 1px;
+  }
+
+  #ad-hcolor
+  {
+    background-image: url(https://i0.wallpaperscraft.com/image/background_light_stripes_spots_uniform_43981_200x300.jpg);
+    min-height: 40px;
+    padding-top: 4%;
+  }
+  #ad-subh
+  {
+    text-align: center;
+    color: white;
+  }
+  #ad-padig
+  {
+     padding-top: 5px;
+  }
+  #ad-span
+  {
+    
+    font-weight: bold;
+  }
+#ad-subh2
+{
+    position:relative;
+     padding: 10px; 
+   
+     font-weight:bold;
+}
+#ad-button
+{
+    background-color: #3498db;
+    border-color: #217dbb;
+     display: inline-block;
+    border: 1px solid #eee;
+    
+    padding: 10px 15px;
+    font-weight: 700;"
+}
+#ad-span2
+{
+    color: white;
+}
+#ad-textcenter
+{
+    text-align: center;
+}
+#ad-headtext
+{
+    color: #333;
+    
+     text-align: left;
+     padding-top: 20px;
+}
+#ad-textleft
+{
+   text-align: left; 
+}
+#ad-endbtn
+{
+    float: left; 
+     border: 2px solid ;
+      
+    padding: 10px 15px;
+    font-weight: 700;
+
+}
+#imgwidth
+{
+    width:100%;
+}
+
+
+
+
+/* contact us page*/
+
+
+#ad-imgheader1
+  {
+    position: relative;
+    background-size: cover;
+    background-position: 20%;
+    padding: 60px 5px;
+    height: 42vh;
+    max-height: 270px;
+    background-image: url(https://images.pexels.com/photos/533930/pexels-photo-533930.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    color: #ffff;
+    text-align: center;
+  }
+  #ad-mainheading
+  {
+     padding-top: 3%;
+     font-weight: bold;
+  }
+  #ad-tpaddingtop
+  {
+    
+    padding-top: 5px;
+  }
+  #ad-forms
+  {
+    box-shadow:  0px 0px 0px 0px;
+    border:solid black 1px;
+  }
+  #ad-paddingdiv
+  {
+     padding:2px;
+  }
+  #ad-iconstyle
+  {
+    background-color: #55ACEE;
+   
+    
+ 
+  }
+  #ad-spanicon
+  {
+   
+  }
+  #ad-iconstyle1
+  {
+    background-color: #3B5998;
+   
+    
+   
+  }

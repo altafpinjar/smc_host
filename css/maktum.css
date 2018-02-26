@@ -1,0 +1,279 @@
+
+/*navabar*/
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar-light ,.btn-outline-secondary:hover{
+background-color: #1ABC9C;
+border-color: green;
+}
+.navbar-light{ 
+border-color: green;
+}
+
+.nav-menu
+{
+  color: white;
+}
+
+.newClass li a{
+	color: #fff !important;
+}
+.col-6 ul,.col-6 h6{
+ color: #fff !important; 
+}
+
+  .col-md-3 h6,.footericon{
+    color: #fff !important;
+  }
+/* end navabar*/
+
+/* body   00A588*/
+body {    
+background-color:#fff;
+}
+/*@media only screen and (max-width: 1200px) {
+    body {
+        background-color:#fff;
+
+    }
+}*/
+
+/* end body*/
+.footer
+{
+  background-color:#191919; 
+  font-size: 13px;
+
+}
+
+.footer .row{
+  padding-top: 10px;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE 10 */
+    flex: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+
+/*  botton pageination links*/
+.pagination a {
+    color: black;
+    float: middle;
+    padding: 6px 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination
+{
+  padding-left: 40%;
+}
+
+.pagination a.active {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #1ABC9C;}
+/*  end of botton pageination links*/
+
+
+.container {
+  position: relative;
+  width: 70%;
+}
+
+
+.imgsize img{
+  height:150px; width:100%;
+}
+
+
+.imgdec img{
+  width:800px; height: 400px;
+}
+
+
+.imgdechome img{
+  width:700px; height: 400px;
+}
+
+
+.jumbodesc{
+  padding-left: 26%;
+}
+
+.descimg{
+  color:#1ABC9C; background-color: black;
+}
+.descimghome{
+  color:#1ABC9C; background-color: ;
+}
+
+.gridimg img{
+  width:100%;
+}
+/*
+h1,h2,h3,h4,h5,h6,a,p {
+  font-family: 'Saira Condensed', sans-serif;
+}*/
+a,p {
+font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Roboto Slab', serif;
+}
+
+
+.wrapper {
+    margin: 2.5% auto;
+    max-width: 960px;
+    min-width: 960px;
+    padding: 10px;
+}
+
+
+/* Styles for  URL box */ 
+
+.url-box {
+  display: inline-block;
+    margin: 4% auto 2%;
+    text-align: center;
+    width: 100%;
+   
+    
+    outline: none;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+.url-box::-webkit-input-placeholder {
+    color: #000;
+    opacity: 0.5;
+  
+    padding-top: 5px;
+}
+
+.url-box::-moz-placeholder {
+    color: #000;
+    opacity: 0.5;
+    
+    padding-top: 5px;
+}
+
+/* Styles for image container*/
+
+#imageContainer {
+  border: 2px solid #000;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    margin-left: 1%;
+    width: 65.6%;
+}
+
+#imageContainer img {
+  width: 100%;
+}
+
+/* Styles for sliders*/
+
+.sliders {
+    width: 30%;
+    display: inline-block;
+  border: 2px solid #000;
+  padding-left: 10px;
+}
+
+.sliders p {
+  margin: 18px 0;
+  vertical-align: middle;
+
+}
+
+.sliders label {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  width: 100px;
+ 
+  color: #22313F;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.sliders input {
+  position: relative;
+  margin: 10px 20px 0 10px;
+  vertical-align: middle;
+}
+
+input[type=range] {
+    /*removes default webkit styles*/
+    -webkit-appearance: none;
+    
+    /*fix for FF unable to apply focus style bug */
+    border-radius: 5px;
+    
+    /*required for proper track sizing in FF*/
+    width: 150px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 7px;
+    background: #ABB7B7;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #4B77BE;
+    margin-top: -6px;
+    vertical-align: middle;
+}
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:hover {
+  cursor: pointer;
+}
+
+
+#reset {
+  display: inline-block;
+  height: 2.5rem;
+  width: 95%;
+    background-color: #22A7F0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    
+    color: #fff;
+    margin: 0 10px 10px 0px;
+    border: 2px solid transparent;
+}
+
+#reset:hover {
+    color: #22A7F0;
+    background-color: #fff;
+    border: 2px solid #22A7F0;
+}
+
+/*#status {
+  display: none;
+}*/

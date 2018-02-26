@@ -1,0 +1,326 @@
+/******star ratings*******/
+.checked {
+    color: orange;
+}
+/*************************/
+
+
+/**********carousel***************/
+.carousel-fade .carousel-item {
+  display: block;
+  position: relative;
+  opacity: 0;
+  transition: opacity .75s ease-in-out;
+}
+
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+  display: block;
+}
+
+.carousel {
+  position: relative;
+  background-color: lightskyblue;
+}
+.carousel-inner {
+  background-color: pink;
+  height: 100%;
+}
+.carousel-item {
+  background-color:;
+  opacity .5;
+}
+a.carousel-control-next:link, a.carousel-control-prev:link {
+  background-color: transparent;
+  text-decoration: none;
+  opacity: .5;
+}
+a.carousel-control-next:hover, a.carousel-control-prev:hover  {
+  background-color: transparent;
+  text-decoration: none;
+  opacity: 1;
+}
+
+
+/*carousel content*/
+.carousel-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+
+/**********carousel end***************/
+
+
+
+
+/*popular categories*/
+
+.popcat img
+{
+ height: 200px;
+ width: 365px;
+}
+
+/*popular categories*/
+
+
+
+/*button start*/
+.btn-sm
+{
+  float: right;padding-right: 10px; margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+
+.btn-sm:hover
+{
+  background-color: white;
+  border-color: black;
+  color:black;
+}
+/*button end*/
+
+/******sections*************/
+
+.section_1
+{
+  padding-top:10px;padding-bottom:10px;
+}
+
+.section_2
+{
+  padding-top:20px;padding-bottom:10px;
+}
+
+/******sections end*************/
+
+
+
+/***********recent photos****************/
+
+.photos img
+{
+  height: 170px; width: 239px;
+}
+
+/**********************************************************HOVEREFFECT*****************************************************************/
+.hovereffect_s {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;             
+}
+
+.hovereffect_s .overlay_s {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(35,35,35,0.4);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect_s:hover .overlay_s {
+  background-color: rgba(48, 152, 157, 0.2);
+}
+
+.hovereffect_s img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect_s h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(155px);
+  -ms-transform: translateY(155px);
+  transform: translateY(155px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect_s:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.hovereffect_s a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  margin: 32px 0 0 0;
+ 
+}
+
+.hovereffect_s:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect_s a.info:hover {
+  box-shadow: 0 0 1px #fff;
+}
+
+
+
+/***************************************************hover effects end***************************************************************/
+
+
+/********** our contributers**********/
+
+.contributers img:hover
+{
+  zoom: 1.05;
+}
+/********** our contributers end**********/
+
+/******** hover 2 by altaf *******/
+
+./*hovereffect {
+    
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+.hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+  top: auto;
+  bottom: 0;
+  padding: 0em;
+  height: 2em;
+  background: #79FAC4;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+  
+
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+.hovereffect:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+  transform: translate3d(0,-10%,0);
+}
+
+
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+  color: #fff;
+  border: 0px solid #fff;
+  margin: 20px 0 0 0;
+  background-color: transparent;
+}
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+
+.hovereffect p.icon-links a {
+  float: center;
+  color: #3c4a50;
+  font-size: 1.1em;
+}
+
+.hovereffect:hover p.icon-links a:hover,
+.hovereffect:hover p.icon-links a:focus {
+  color: #252d31;
+}
+
+.hovereffect h2,
+.hovereffect p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,200%,0);
+  transform: translate3d(0,200%,0);
+  visibility: visible;
+}
+
+.hovereffect p.icon-links a span:before {
+  display: inline-block;
+  padding: 8px 20px;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.hovereffect:hover .overlay,
+.hovereffect:hover h2,
+.hovereffect:hover p.icon-links a {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.hovereffect:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+*/
+
+/******** end hover 2 by altaf *******/

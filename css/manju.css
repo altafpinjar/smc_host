@@ -1,0 +1,251 @@
+.iparallax {
+    /* The image used */
+    background-image: url("../images/giri-img4.jpg");
+    /* Set a specific height */
+  
+    height: 200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    /*background-repeat: no-repeat;
+*/    background-size: cover;
+    display: block;
+}
+.pheading{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+
+/* our team CSS starts here */
+.sideheading{
+  font-size: 30px;
+              font-family: "Poppins";
+              color: #000;
+              text-align: center;
+              padding-top: 15px;
+}
+
+.trainerss{
+    padding-top: 25px;
+}
+
+.sideheading1{
+   
+    font-size: 30px;
+              font-family: "Poppins";
+              color: #000;
+              text-align: center;
+              padding-top: 55px;
+}
+
+.buttons{
+  text-align: center;
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FF0000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+   
+
+
+.memberinfo{
+  font-size: 18px;
+              font-family: "Open Sans";
+              color: #333;
+              text-align: justify;
+              padding-top: 15px;
+}
+
+#girish-image{
+  border-radius: 60%;
+}
+
+.memberimage
+ {
+ padding-top: 15px;
+ 
+ }
+
+.memberimage img:hover {
+  opacity:.5;
+  cursor:pointer;
+  overflow:hidden;
+  transition-duration:1s;
+  transform:scale(1.1);
+   }                                                                 
+ 
+
+  .title-arch {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+ .project {
+   width: 100%;
+  height: 500px;
+  background-image: url(../images/manju/member5.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 !important;
+  float:left;
+}
+
+.project-2 {
+  background-image: url(../images/manju/member4.jpg);
+}
+
+.project-3 {
+  background-image: url(../images/manju/member7.jpeg);
+}
+
+.project-4 {
+  background-image: url(../images/manju/member7.jpeg);
+}
+
+.project-hover {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #1ABC9C;
+  padding: 40% 30px !important;
+}
+
+.project-hover hr {
+  height: 30px;
+  width: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0;
+}
+
+.project-hover a {
+  color: rgba(255, 255, 255, 1);
+  padding: 2px 22px;
+  line-height: 40px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+  border-color: rgba(51, 51, 51, 1);
+  color: rgba(51, 51, 51, 1);
+  background-color: #FFF;
+}
+
+.project:hover .project-hover {
+  opacity: 1;
+}
+
+.project:hover .project-hover hr {
+  width: 100%;
+  height: 5px;
+}
+
+.materialbutton{
+  text-align: center;
+}
+
+
+
+
+
+
+/*<about us css styles>*/
+
+.manju img:hover {
+  opacity:.4;
+  cursor:pointer;
+  overflow:hidden;
+  transition-duration:1s;
+  transform:scale(1.1);
+   } 
+
+ .manz-hdr{
+  color:#161719;
+  margin-left:10px;
+ }     
+
+.manz-img{
+  border-radius:50%;
+  width:150px;
+}
+.manz-pgf{
+color:#161719;
+margin-top:40px;
+}
+
+.manz-head{
+  background-image:url(../images/manju/k3.jpeg);
+  height:300px;
+  padding-top:130px;
+}
+
+.manz-spn{
+  font-size:50px;
+  color:#ffffff;
+}
+
+.manz-bdy{
+  
+}
+
+.manz-jumbotron{
+  
+  box-shadow:0px 0px 1px 0px;
+}
